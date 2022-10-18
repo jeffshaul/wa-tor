@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Wa-tor</title>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <div class='titleBar'>Wa-tor</div>
+        <div class='controlBar'>
+            <label for='fishPct'>Fish %</label>
+            <input id='fishPct' type='number' value=95>
+
+            <label for='sharkPct'>Shark %</label>
+            <input id='sharkPct' type='number' value=5>
+
+            <label for='fishBreedTurns'>Fish Breed Time</label>
+            <input id='fishBreedTurns' type='number' value=5>
+
+            <label for='sharkBreedTurns'>Shark Breed Time</label>
+            <input id='sharkBreedTurns' type='number' value=6>
+
+            <label for='sharkStarveTurns'>Shark Starve Time</label>
+            <input id='sharkStarveTurns' type='number' value=4>
+        </div>
+        <div class='seaArea'>
+            Generation: <span id='chrononText'>0</span>, Fish: <span id='fishText'>0</span>, Sharks: <span id='sharksText'>0</span>
+            <canvas id='seaCanvas' width='400' height='400'></canvas>
+            <button onclick='play();'>Play</button>
+            <p>seems stable: 95% fish, 5% shark, 5 fish breed time, 6 shark breed time, 4 shark starve time, 400x400</p>
+        </div>
+        
+        <script src='animals.js'></script>
+        <script src='sea.js'></script>
+        <script src='wa-tor.js'></script>
+    </body>
+</html>
