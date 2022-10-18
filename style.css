@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlebar {
+    padding: 10px;
+    background-color: rgb(180, 243, 243);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.controlbar {
+    padding: 5px;
+    background-color: rgb(180, 243, 243);
+    text-align: center;
+}
+
+input {
+    width: 50px;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.seaArea {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+  background-color: rgb(180, 243, 243);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: rgb(211, 240, 240);
+}
